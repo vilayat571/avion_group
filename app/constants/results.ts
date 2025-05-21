@@ -5,4 +5,4 @@ export const results = [
     { id: 4, number: "94+", text: "müştəri məmnuniyyəti" },
     { id: 5, number: "110+", text: "günlük zəng sayı" }
   ];
-  
+   

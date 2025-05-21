@@ -1,7 +1,10 @@
 import { Poppins } from "next/font/google";
 import ResultsOf from "./components/ResultsOf";
-import Differences from "./components/Differences";
+import Differences from "./components/Upsides";
 import Follow from "./components/Follow";
+import Upsides from "./components/Upsides";
+import Consultation from "./components/Consultation";
+import HowWeWorks from "./components/HowWeWorks";
 
 const poppins = Poppins({
   weight: "500",
@@ -11,8 +14,8 @@ const poppins = Poppins({
 
 function MainPage() {
   return (
-    <div className="flex items-center flex-col justify-center w-full border">
-      {/* cover */}
+    <div className="flex items-center flex-col justify-center w-full px-3">
+
       <div className="flex relative items-center justify-center">
         <img src="/cover.png" alt="Main page cover" />
         <div className="absolute top-1/2 text-center left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold">
@@ -25,8 +28,9 @@ function MainPage() {
       </div>
 
       <ResultsOf />
-     {/*  <Differences /> */}
-
+      <Upsides />
+      <HowWeWorks />
+      <Consultation />
       <Follow />
     </div>
   );
