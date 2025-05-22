@@ -5,6 +5,8 @@ import Follow from "./components/Follow";
 import Upsides from "./components/Upsides";
 import Consultation from "./components/Consultation";
 import HowWeWorks from "./components/HowWeWorks";
+import Partners from "./components/Partners";
+import Meeting from "./components/Meeting";
 
 const poppins = Poppins({
   weight: "500",
@@ -14,8 +16,7 @@ const poppins = Poppins({
 
 function MainPage() {
   return (
-    <div className="flex items-center flex-col justify-center w-full px-3">
-
+    <div className="flex items-center flex-col justify-center w-full ">
       <div className="flex relative items-center justify-center">
         <img src="/cover.png" alt="Main page cover" />
         <div className="absolute top-1/2 text-center left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold">
@@ -28,10 +29,14 @@ function MainPage() {
       </div>
 
       <ResultsOf />
+ {/*      <Partners />
       <Upsides />
       <HowWeWorks />
       <Consultation />
-      <Follow />
+      <Follow /> */}
+
+
+      <Meeting />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { results } from "../constants/results";
 
 const ResultsOf = () => {
   return (
-    <div className="w-full flex items-center justify-center my-12">
+    <div className="w-full flex items-center justify-center mt-20 my-12">
       <div className="grid xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-2 sm:grid-cols-1 gap-y-10 w-full px-12">
         {results.map((item) => {
           return (

@@ -33,6 +33,8 @@ const Consultation = () => {
                 placeholder="Ad & soyad"
                 onChange={(e) => inputChangeDelegation(e)}
               />
+
+              
               <input
                 type="text"
                 id="phoneNumbers"
@@ -63,27 +65,31 @@ const Consultation = () => {
             </form>
           </div>
 
-          <div className="col-span-1 flex flex-col pt-5">
-            <h1 className="text-lg">Proses necə gedir?</h1>
-            <h2 className="text-3xl my-4">
-              Ödənişsiz <br /> Konsultasiya
-            </h2>
-            <p className="w-3/4 tracking-wider leading-[24px] ">
-              Formu doldurduqdan sonra “Göndər” düyməsinə klik edirsiniz. Sonra
-              məlumatlar bizim bazamıza düşür. Növbətu bir həftə ərzində
-              əməkdaşlarımızı sizinlə əlaqə saxlayaraq uyğun tarix və vaxt qeyd
-              edilir.
-              <br />
-              <br />
-              Konsultasiya da siz, sizi maraqlandıran xidmət haqqında və ya
-              şirkətiniz haqqında mümkün suallarınızı bizə yönləndirirsiniz.
-              Bizdə öz növbəmizdə sizə lazımı dəstək göstərməyə çalışırıq.
-            </p>
+          <div className="col-span-1 flex justify-end ">
+            <div className=" flex flex-col relative left-32  pt-5">
+              <h1 className="text-lg">Proses necə gedir?</h1>
+              <h2 className="text-3xl my-4">
+                Ödənişsiz <br /> Konsultasiya
+              </h2>
+              <p className="w-3/4 tracking-wider italic leading-[24px] ">
+                Formu doldurduqdan sonra “Göndər” düyməsinə klik edirsiniz.
+                Sonra məlumatlar bizim bazamıza düşür. Növbətu bir həftə ərzində
+                əməkdaşlarımızı sizinlə əlaqə saxlayaraq uyğun tarix və vaxt
+                qeyd edilir.
+                <br />
+                <br />
+                Konsultasiya da siz, sizi maraqlandıran xidmət haqqında və ya
+                şirkətiniz haqqında mümkün suallarınızı bizə yönləndirirsiniz.
+                Bizdə öz növbəmizdə sizə lazımı dəstək göstərməyə çalışırıq.
+              </p>
 
-            <button className="bg-black py-3 mt-5 w-32 px-5 rounded text-white">
-              Göndər
-            </button>
+              <button className="bg-black py-3 mt-5 w-32 px-5 rounded text-white">
+                Göndər
+              </button>
+            </div>
           </div>
+
+          
         </section>
       </div>
     </main>
